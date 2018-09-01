@@ -33,7 +33,7 @@ plugins:
   - jekyll-feed
 
 disqus:
-    shortname: maratumba-home
+    shortname: maratumba_home
 
 
 # Exclude from processing.
