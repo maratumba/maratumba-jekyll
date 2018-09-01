@@ -35,6 +35,12 @@ plugins:
 disqus:
     shortname: maratumba-home
 
+full_name: Yaman Özakın
+show_excerpts: true
+
+bio: >-
+  I had a rough childhood. 
+  But I can be of service to you.
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
