@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "I Like Jekyll"
 date: 2018-09-01 10:10:58 +0300
 categories: feelings
