@@ -20,3 +20,6 @@ I'm a super amazing person. Please give me a lot of money for minimum amount of 
 - MySQL
 - CI/CD
 - Jekyll
+
+$$ \Sigma_i x_i $$
+sigma
