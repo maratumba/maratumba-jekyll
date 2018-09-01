@@ -32,6 +32,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
+disqus:
+    shortname: maratumba-home
 
 
 # Exclude from processing.
