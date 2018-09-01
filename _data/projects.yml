@@ -1,0 +1,50 @@
+- short-name: EPOS-IP
+  logo:
+  description: EPOS is a collaboration to standardize, coordinate and disseminite geoscientific data.
+  job: >-
+    I was responsible for collecting and converting datasets, creating MySQL schemas and tables
+    and populating the tables with converted datasets.
+  skills:
+    - Python
+    - Tornado
+    - MySQL
+    - Docker
+    - Seiscomp3
+    - awk
+    - bash
+    - git
+- short-name: Cave-DB
+  logo:
+  description: >-
+    A GIS database for all caves in Turkey. Caves are entered by registered users. Caves
+    can be listed, searched and are visualized on a map. The relationships between Caves,
+    publications, people, caving clubs are all recorded and can be queried.
+  job: >-
+    I conceived, designed, coded and deployed the whole project. Used PostGIS in a docker container
+    I forked for i18n compatibility purposes as dB backend.
+  skills:
+    - Python
+    - Django
+    - SqLite
+    - PostgreSQL
+    - PostGIS
+    - Vanilla Javascript
+    - jquery
+    - google maps API
+    - google charts
+    - google places
+    - bash
+    - Docker
+    - sleep deprivation
+- short-name: Patient-Watch
+  logo:
+  description: An ongoing app for recording patient activity.
+  job: >-
+    Designed out of necessity.
+  skills:
+    - Angular
+    - Django REST Framework
+    
+
+
+    
