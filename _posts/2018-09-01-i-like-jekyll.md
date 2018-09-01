@@ -3,7 +3,6 @@ layout: post
 title: "I Like Jekyll"
 date: 2018-09-01 10:10:58 +0300
 categories: feelings
-comments: true
 ---
 
 Day 1, they still haven't figured out I'm not a static site generator person yet.
