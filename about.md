@@ -21,6 +21,9 @@ I'm a super amazing person. Please give me a lot of money for minimum amount of 
 - CI/CD
 - Jekyll
 
-$$ \Sigma_i x_i a_i^2 = \frac{1}{\pi^2}$$
+$$ \Sigma_i x_i a_i^2 = \frac{1}{\pi^2} $$
+
+:poop:
+
 
 sigma
