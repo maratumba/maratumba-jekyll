@@ -31,34 +31,47 @@ body {
 //Custom styling
 .mid-container {
   display: grid;
-  grid-template-columns: 50% 10% %40;
+  grid-template-columns: 100%;
+  grid-template-rows: auto 1fr 2fr;
+  grid-template-areas:
+    "bio"
+    "posts";
 }
 
 .posts {
-  grid-column-start: 1;
+grid-area:posts; }
+
+  .bio {
+    grid-area: bio;
+    text-align: left;
+    align-content: right;
+    grid-template-rows: 10% 90%;
+    justify-content: right;
+    display: flex; 
+
+  img.profile-pic {
+    display: inline-block;
+    float: none;
+    align: right; }
+
+  .bio-text {
+    grid-row-start: 2;
+    opacity: 0.5;
+    display: block; }
 }
 
-.bio {
-  grid-column-start: 3;
-  text-align: right;
-  align-content: right;
-  grid-template-rows: 10% 90%;
-  justify-content: right;
-  display: flex;
+@media screen and (min-width: 600px) {
+  .mid-container {
+    display: grid;
+    grid-template-columns: 50% 10% 40%;
+    grid-template-areas: "posts nada bio"; 
+  }
+  .bio {
+    text-align: right;
+  } 
 }
 
-img.profile-pic{
-  grid-row-start: 1;
-  display: inline-block;
-  float: none;
-  align: right;
-}
 
-.bio-text {
-  grid-row-start: 2;
-  opacity: 0.5;
-  display: block;
-}
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
