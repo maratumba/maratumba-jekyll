@@ -1,10 +1,8 @@
 ---
-layout: page
+layout: about
 title: About
 permalink: /about/
 ---
-
-![Kuhl Photo Bro]({{ "/assets/profile_pic.jpg" | absolute_url }} "pro")
 
 I'm a super amazing person. Please give me a lot of money for minimum amount of work.
 
@@ -15,15 +13,17 @@ I'm a super amazing person. Please give me a lot of money for minimum amount of 
 - Javascript
 - CSS, SASS
 - Angular
-- Javascript
 - Docker
 - MySQL
 - CI/CD
 - Jekyll
 
-$$ \Sigma_i x_i a_i^2 = \frac{1}{\pi^2} $$
+# My Hobbies
+- Coding
+- Switching to new code editors
+- Designing
 
-:smile:
 
+$$ e^{i\pi}-1=0 $$
 
-sigma
+:poop: Hello mello what's up yo!

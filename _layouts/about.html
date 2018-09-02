@@ -1,0 +1,28 @@
+---
+layout: default
+---
+{% assign aboutpage = site.documents | where: "slug", "bio" | first %}
+
+<div class="home">
+    {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+    
+    
+    <div class="mid-container">
+        <div class="posts">
+            {{ content }}
+        </div>
+        <div class="bio">
+            <figure>
+                <img width=100% class="profile-pic" align="right" src="{{ "/assets/profile_pic.jpg" | absolute_url }}">
+                <figcaption>{{ site.data.bio.bio | markdownify }}</figcaption>
+            </figure>
+            
+            
+            
+            
+        </div>
+    </div>
+    
+</div>

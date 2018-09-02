@@ -35,7 +35,7 @@ layout: default
   <div class="bio">
     <figure>
       <img width=100% class="profile-pic" align="right" src="{{ "/assets/profile_pic.jpg" | absolute_url }}">
-      <figcaption>{{ site.data.bio.bio }}</figcaption>
+      <figcaption>{{ site.data.bio.bio|markdownify }}</figcaption>
     </figure>
     
     

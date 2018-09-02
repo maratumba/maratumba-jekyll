@@ -8,7 +8,9 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
-
+img.emoji {
+  float:none;
+}
 
 /**
  * Basic styling
@@ -57,7 +59,19 @@ grid-area:posts; }
   .bio-text {
     grid-row-start: 2;
     opacity: 0.5;
-    display: block; }
+    display: block; 
+  }
+  figure{
+    text-align: justify;
+    p {
+      opacity: 0.5;
+    }
+    p:after{
+      content:'';
+      display: inline-block;
+      width: 100%;
+    }
+  }
 }
 
 @media screen and (min-width: 600px) {

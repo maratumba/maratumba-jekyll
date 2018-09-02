@@ -16,31 +16,35 @@
 title: Maratumba Home Page
 email: dandik_excludethis_@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    Welcome to Yaman Ozakin (Özakın)'s home page.
+    Current favorite editor: Visual Studio Code
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://maratumba.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: maratumba
 github_username:  maratumba
+instagram_username: dandique
+linkedin_username: gulyamani
+author: Yaman Özakın
+include: ['_pages']
 
 header_pages:
-  - about.md
-  - projects.md
+  - _pages/about.md
+  - _pages/projects.md
+  - _pages/visual.md
+  - _pages/posts.md
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jemoji
 
 disqus:
     shortname: maratumba-home
 
 full_name: Yaman Özakın
 show_excerpts: true
-
-bio: >-
-  I had a rough childhood. 
-  But I can be of service to you.
+  
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
